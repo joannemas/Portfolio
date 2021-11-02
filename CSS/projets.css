@@ -25,6 +25,18 @@ nav li a {
   text-align: center;
 }
 
+footer {
+  height: 150px;
+  background-color: #FDB947;
+  padding: 20px 40%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer img {
+  width: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,13 +47,6 @@ h1 {
   font-weight: bold;
   margin: 20px;
   font-family: sans-serif;
-}
-
-footer {
-  height: 150px;
-  background-color: #FDB947;
-  padding: 20px 40%;
-  text-align: center;
 }
 
 .project-list {
@@ -93,9 +98,6 @@ footer {
   position: relative;
   z-index: 1;
 }
-.project .description h2, .project .description h3 {
-  font-family: Poppins, sans-serif;
-}
 .project .description h2 {
   line-height: 1;
   margin: 0;
@@ -112,16 +114,6 @@ footer {
   color: #E1A3FF;
   display: inline-block;
   position: relative;
-}
-.project .description .read-more:after {
-  margin-left: -10px;
-  opacity: 0;
-  vertical-align: middle;
-  transition: margin 0.3s, opacity 0.3s;
-}
-.project .description .read-more:after:hover:after {
-  margin-left: 5px;
-  opacity: 1;
 }
 .project p {
   position: relative;

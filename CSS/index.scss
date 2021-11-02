@@ -126,3 +126,22 @@ button a {
     font-style: none;
     text-decoration: none;
 }
+
+@media (max-width: 900px) {
+
+    .title {
+        height: auto;
+        display: block;
+    }
+    .title img {
+        width: 70%;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .presentation img {
+        width: auto;
+    }
+}

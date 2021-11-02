@@ -1,5 +1,6 @@
 @import "nav";
 @import "title";
+@import "footer";
 
 $pink: #E1A3FF;
 $orange: #FDB947;
@@ -15,14 +16,6 @@ h1 {
     font-weight: bold;
     margin: 20px;
     font-family: sans-serif;
-}
-
-
-footer {
-    height: 150px;
-    background-color: $orange;
-    padding: 20px 40%;
-    text-align: center;
 }
 
 
@@ -75,9 +68,6 @@ footer {
       background: $color_white;
       position: relative;
       z-index: 1;
-      h2, h3 {
-        font-family: Poppins, sans-serif;
-      }
       h2 {
         line-height: 1;
         margin: 0;
@@ -94,17 +84,6 @@ footer {
         color: $pink;
         display: inline-block;
           position: relative;
-          &:after {
-            margin-left: -10px;
-            opacity: 0;
-            vertical-align: middle;
-            transition: margin .3s, opacity .3s;
-  
-          &:hover:after {
-            margin-left: 5px;
-            opacity: 1;
-          }
-        }
       }
     }
 
