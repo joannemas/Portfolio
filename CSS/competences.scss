@@ -1,28 +1,11 @@
+@import "nav";
+
 $pink: #E1A3FF;
 $orange: #FDB947;
 
 *{
     margin: 0;
     padding: 0;
-}
-
-nav { 
-    list-style:none; 
-    margin-top: 40px;
-    float: right;
-}
-
-nav li { 
-    display:inline; 
-    padding:0 10px; 
-}
-
-nav li a {
-    text-decoration: none;
-    padding-left: 25px;
-    text-transform: uppercase;
-    color: #333;
-    text-shadow: 1px 1px 1px #ccc;
 }
 
 .title img {
@@ -39,7 +22,7 @@ nav li a {
 h1 {
     font-size: 36px;
     font-weight: bold;
-    margin: 200px;
+    margin: 50px;
 }
 
 h2 {
@@ -61,6 +44,7 @@ h2 {
     border-radius: 3px;
     margin: 5px;
     position: relative;
+    height: 220px;
 }
     
 .box {
