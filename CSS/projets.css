@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-body {
-  background: #f1f1f1;
-  margin: 2rem;
-}
-
 nav {
   list-style: none;
   margin-top: 40px;
@@ -75,8 +70,7 @@ nav li a {
   position: relative;
   z-index: 1;
 }
-.project .description h2,
-.project .description h3 {
+.project .description h2, .project .description h3 {
   font-family: Poppins, sans-serif;
 }
 .project .description h2 {
@@ -124,6 +118,12 @@ nav li a {
 }
 .project:hover .details {
   left: 0%;
+}
+.project footer {
+  height: 150px;
+  background-color: #FDB947;
+  padding: 20px 40%;
+  text-align: center;
 }
 @media (min-width: 640px) {
   .project {
