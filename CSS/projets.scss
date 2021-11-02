@@ -1,3 +1,5 @@
+@import "nav";
+
 $pink: #E1A3FF;
 $orange: #FDB947;
 $color_white: #fff;
@@ -7,26 +9,20 @@ $color_grey: #e2e2e2;
     margin: 0;
     padding: 0;
 }
-
-nav { 
-    list-style:none; 
-    margin-top: 40px;
-    float: right;
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: sans-serif;
 }
 
-nav li { 
-    display:inline; 
-    padding:0 10px; 
-}
 
-nav li a {
-    text-decoration: none;
-    padding-left: 25px;
-    text-transform: uppercase;
-    color: #333;
-    text-shadow: 1px 1px 1px #ccc;
+footer {
+    height: 150px;
+    background-color: $orange;
+    padding: 20px 40%;
+    text-align: center;
 }
-
 
 .title {
     display: flex;
@@ -39,6 +35,12 @@ nav li a {
     background-color: plum;
 }
   
+.more {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 75px auto;
+}
 .project {
     display: flex;
     flex-direction: column;
@@ -131,13 +133,6 @@ nav li a {
         left: 0%;
       }
     }
-
-footer {
-        height: 150px;
-        background-color: $orange;
-        padding: 20px 40%;
-        text-align: center;
-}
   
 @media (min-width: 640px) {
     flex-direction: row;
@@ -168,9 +163,6 @@ footer {
           right: -10px;
           transform: skew(3deg)
         }
-      }
-      .details {
-        padding-left: 25px;
       }
     }
   }

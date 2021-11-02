@@ -1,11 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 nav {
   list-style: none;
   margin-top: 40px;
+  margin-right: 60px;
   float: right;
 }
 
@@ -16,10 +12,29 @@ nav li {
 
 nav li a {
   text-decoration: none;
+  font-family: sans-serif;
   padding-left: 25px;
   text-transform: uppercase;
-  color: #333;
-  text-shadow: 1px 1px 1px #ccc;
+  text-shadow: 1px 1px 1px #b4b4b4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+footer {
+  height: 150px;
+  background-color: #FDB947;
+  padding: 20px 40%;
+  text-align: center;
 }
 
 .title {
@@ -31,6 +46,13 @@ nav li a {
 
 .project-list {
   background-color: plum;
+}
+
+.more {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 75px auto;
 }
 
 .project {
@@ -119,12 +141,6 @@ nav li a {
 .project:hover .details {
   left: 0%;
 }
-.project footer {
-  height: 150px;
-  background-color: #FDB947;
-  padding: 20px 40%;
-  text-align: center;
-}
 @media (min-width: 640px) {
   .project {
     flex-direction: row;
@@ -155,9 +171,6 @@ nav li a {
     left: inherit;
     right: -10px;
     transform: skew(3deg);
-  }
-  .project.alt .details {
-    padding-left: 25px;
   }
 }
 
