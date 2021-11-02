@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  list-style: none;
+  margin-top: 40px;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #333;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.title img {
+  height: 600px;
+}
+
+.title {
+  display: flex;
+  padding: 10%;
+  height: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 200px;
+}
+
+.skills-grid {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.container {
+  border-radius: 3px;
+  margin: 5px;
+  position: relative;
+}
+
+.box {
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 3px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background: #fff;
+  height: 100%;
+}
+
+div {
+  backface-visibility: hidden;
+  border-radius: 3px;
+  color: #47525D;
+}
+
+.front {
+  position: absolute;
+  padding: 15%;
+}
+
+.back {
+  transform: rotateY(180deg);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+
+/*# sourceMappingURL=competences.css.map */
