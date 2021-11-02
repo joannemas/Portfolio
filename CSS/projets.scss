@@ -1,4 +1,5 @@
 @import "nav";
+@import "title";
 
 $pink: #E1A3FF;
 $orange: #FDB947;
@@ -10,7 +11,7 @@ $color_grey: #e2e2e2;
     padding: 0;
 }
 h1 {
-    font-size: 36px;
+    font-size: 64px;
     font-weight: bold;
     margin: 20px;
     font-family: sans-serif;
@@ -24,15 +25,10 @@ footer {
     text-align: center;
 }
 
-.title {
-    display: flex;
-    padding: 10%;
-    height: auto;
-    text-align: center;
-}
 
 .project-list {
-    background-color: plum;
+    background-color: $pink;
+    padding: 15px;
 }
   
 .more {

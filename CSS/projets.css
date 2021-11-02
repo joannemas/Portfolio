@@ -18,13 +18,20 @@ nav li a {
   text-shadow: 1px 1px 1px #b4b4b4;
 }
 
+.title {
+  display: flex;
+  padding: 10%;
+  height: auto;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 64px;
   font-weight: bold;
   margin: 20px;
   font-family: sans-serif;
@@ -37,15 +44,9 @@ footer {
   text-align: center;
 }
 
-.title {
-  display: flex;
-  padding: 10%;
-  height: auto;
-  text-align: center;
-}
-
 .project-list {
-  background-color: plum;
+  background-color: #E1A3FF;
+  padding: 15px;
 }
 
 .more {
