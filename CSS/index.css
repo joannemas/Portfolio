@@ -67,29 +67,28 @@ h2 {
 }
 
 .skills {
-  background-color: yellowgreen;
+  background-color: #E1A3FF;
   height: 500px;
   margin: auto;
 }
 
 .projects {
-  background-color: pink;
   height: 400px;
 }
 
 .contact {
-  background-color: plum;
   height: 400px;
 }
 
 .social, .skills-list {
   margin: 25px auto;
-  max-width: 850px;
+  max-width: 875px;
   display: grid;
-  row-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: wheat;
+  background-color: #E1A3FF;
   text-align: center;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .contact img, .skills img {
@@ -98,7 +97,7 @@ h2 {
 }
 
 button {
-  background-color: violet;
+  background-color: #FDB947;
   color: white;
   font-size: 20px;
   padding: 10px;
@@ -106,9 +105,17 @@ button {
   display: flex;
 }
 
+button:hover {
+  background-color: #E1A3FF;
+}
+
+button a {
+  font-style: none;
+}
+
 footer {
   height: 150px;
-  background-color: violet;
+  background-color: #FDB947;
   padding: 20px 40%;
   text-align: center;
 }
