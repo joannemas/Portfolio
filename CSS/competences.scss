@@ -1,4 +1,6 @@
 @import "nav";
+@import "footer";
+@import "title";
 
 $pink: #E1A3FF;
 $orange: #FDB947;
@@ -20,9 +22,10 @@ $orange: #FDB947;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 64px;
     font-weight: bold;
-    margin: 50px;
+    margin: 20px;
+    font-family: sans-serif;
 }
 
 h2 {
@@ -38,6 +41,7 @@ h2 {
     width: 90%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
+    padding-bottom: 15%;
 }
     
 .container{
@@ -45,6 +49,7 @@ h2 {
     margin: 5px;
     position: relative;
     height: 220px;
+
 }
     
 .box {
@@ -75,15 +80,27 @@ div{
     position: relative;
     background-color: $pink;
     height: 100%;
+    padding: 15px;
+    font-family: lato;
 }
     
 .flipped{
     transform: rotateY(180deg);
 }
 
-footer {
-    height: 150px;
-    background-color: $orange;
-    padding: 20px 40%;
-    text-align: center;
+@media (max-width: 900px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    .skills-grid {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding-bottom: 20%;
+    }
+
+    footer {
+        display: block;
+    }
 }

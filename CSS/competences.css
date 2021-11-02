@@ -1,11 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 nav {
   list-style: none;
   margin-top: 40px;
+  margin-right: 60px;
   float: right;
 }
 
@@ -16,10 +12,34 @@ nav li {
 
 nav li a {
   text-decoration: none;
+  font-family: sans-serif;
   padding-left: 25px;
   text-transform: uppercase;
-  color: #333;
-  text-shadow: 1px 1px 1px #ccc;
+  text-shadow: 1px 1px 1px #b4b4b4;
+}
+
+footer {
+  height: 150px;
+  background-color: #FDB947;
+  padding: 20px 40%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer img {
+  width: 40px;
+}
+
+.title {
+  display: flex;
+  padding: 10%;
+  height: auto;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .title img {
@@ -34,9 +54,10 @@ nav li a {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 64px;
   font-weight: bold;
-  margin: 200px;
+  margin: 20px;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -52,6 +73,7 @@ h2 {
   width: 90%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
+  padding-bottom: 15%;
 }
 
 .container {
@@ -88,17 +110,29 @@ div {
   position: relative;
   background-color: #E1A3FF;
   height: 100%;
+  padding: 15px;
+  font-family: lato;
 }
 
 .flipped {
   transform: rotateY(180deg);
 }
 
-footer {
-  height: 150px;
-  background-color: #FDB947;
-  padding: 20px 40%;
-  text-align: center;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .skills-grid {
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-bottom: 20%;
+  }
+
+  footer {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=competences.css.map */
