@@ -1,3 +1,6 @@
+$pink: #E1A3FF;
+$orange: #FDB947;
+
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +42,14 @@ h1 {
     margin: 200px;
 }
 
+h2 {
+    color: $orange;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ccc;
+    font-family: sans-serif;
+}
+
 .skills-grid {
     display: grid;
     width: 90%;
@@ -78,8 +89,17 @@ div{
     justify-content: center;
     align-items :center;
     position: relative;
+    background-color: $pink;
+    height: 100%;
 }
     
 .flipped{
     transform: rotateY(180deg);
+}
+
+footer {
+    height: 150px;
+    background-color: $orange;
+    padding: 20px 40%;
+    text-align: center;
 }

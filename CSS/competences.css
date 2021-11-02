@@ -39,6 +39,14 @@ h1 {
   margin: 200px;
 }
 
+h2 {
+  color: #FDB947;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ccc;
+  font-family: sans-serif;
+}
+
 .skills-grid {
   display: grid;
   width: 90%;
@@ -77,10 +85,19 @@ div {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-color: #E1A3FF;
+  height: 100%;
 }
 
 .flipped {
   transform: rotateY(180deg);
+}
+
+footer {
+  height: 150px;
+  background-color: #FDB947;
+  padding: 20px 40%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=competences.css.map */
